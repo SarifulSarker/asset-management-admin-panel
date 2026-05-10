@@ -119,7 +119,7 @@ const SignIn = () => {
             <Title order={3} ta="center">
               Login
             </Title>
-            <div>sariful@manush.tech || Super@123</div>
+
             <Text ta="center" c={COLORS.dimmed}>
               Distribution Portal
             </Text>
@@ -142,7 +142,6 @@ const SignIn = () => {
               size="sm"
               c={COLORS.app_color}
               fw={600}
-              
               style={{ cursor: "pointer" }}
               onClick={() => navigate("/forget-password")}
             >
@@ -154,7 +153,7 @@ const SignIn = () => {
               loading={mutation.isPending}
               radius="md"
               size="md"
-               fz={20}
+              fz={20}
               style={{
                 color: COLORS.app_color,
               }}

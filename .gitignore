@@ -24,4 +24,3 @@ dist-ssr
 *.sw?
 
 # Ignore all .env files in configs folder
-/configs/*.env*
