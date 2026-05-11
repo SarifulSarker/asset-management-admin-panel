@@ -7,7 +7,7 @@
     "dev": "dotenv -e ./configs/.env.dev -- vite",
     "stage": "dotenv -e ./configs/.env.stage -- vite",
 
-    "production": "dotenv -e ./configs/.env.production -- vite build && vite preview",
+     "production": "vite build && vite preview",
     
     "build": "vite build",
     "lint": "eslint .",
