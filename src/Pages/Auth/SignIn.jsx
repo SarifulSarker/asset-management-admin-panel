@@ -116,6 +116,7 @@ const SignIn = () => {
           )}
         >
           <Stack spacing="md">
+            <Text>sariful@manush.tech || Super@123</Text>
             <Title order={3} ta="center">
               Login
             </Title>
